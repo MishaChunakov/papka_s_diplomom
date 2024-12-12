@@ -1,0 +1,145 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.budilnik"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->F:\Budilnik\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->F:\Budilnik\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+11-->F:\Budilnik\app\src\main\AndroidManifest.xml:5:5-79
+11-->F:\Budilnik\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->F:\Budilnik\app\src\main\AndroidManifest.xml:6:5-66
+12-->F:\Budilnik\app\src\main\AndroidManifest.xml:6:22-63
+13
+14    <uses-feature
+14-->F:\Budilnik\app\src\main\AndroidManifest.xml:7:5-9:35
+15        android:name="android.hardware.bluetooth_le"
+15-->F:\Budilnik\app\src\main\AndroidManifest.xml:8:9-53
+16        android:required="true" />
+16-->F:\Budilnik\app\src\main\AndroidManifest.xml:9:9-32
+17
+18    <uses-permission android:name="android.permission.BLUETOOTH" />
+18-->F:\Budilnik\app\src\main\AndroidManifest.xml:11:5-68
+18-->F:\Budilnik\app\src\main\AndroidManifest.xml:11:22-65
+19    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+19-->F:\Budilnik\app\src\main\AndroidManifest.xml:12:5-74
+19-->F:\Budilnik\app\src\main\AndroidManifest.xml:12:22-71
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->F:\Budilnik\app\src\main\AndroidManifest.xml:13:5-81
+20-->F:\Budilnik\app\src\main\AndroidManifest.xml:13:22-78
+21    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+21-->F:\Budilnik\app\src\main\AndroidManifest.xml:14:5-76
+21-->F:\Budilnik\app\src\main\AndroidManifest.xml:14:22-73
+22    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+22-->F:\Budilnik\app\src\main\AndroidManifest.xml:15:5-73
+22-->F:\Budilnik\app\src\main\AndroidManifest.xml:15:22-70
+23    <uses-permission android:name="ACCESS_FINE_LOCATION" />
+23-->F:\Budilnik\app\src\main\AndroidManifest.xml:16:5-60
+23-->F:\Budilnik\app\src\main\AndroidManifest.xml:16:22-57
+24    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+24-->F:\Budilnik\app\src\main\AndroidManifest.xml:18:5-77
+24-->F:\Budilnik\app\src\main\AndroidManifest.xml:18:22-74
+25    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+25-->F:\Budilnik\app\src\main\AndroidManifest.xml:19:5-77
+25-->F:\Budilnik\app\src\main\AndroidManifest.xml:19:22-74
+26    <uses-permission
+26-->F:\Budilnik\app\src\main\AndroidManifest.xml:20:5-22:38
+27        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+27-->F:\Budilnik\app\src\main\AndroidManifest.xml:21:9-65
+28        android:maxSdkVersion="32" />
+28-->F:\Budilnik\app\src\main\AndroidManifest.xml:22:9-35
+29
+30    <permission
+30-->[androidx.core:core:1.9.0] C:\Users\user\Desktop\Диплом\androidbasics-master\BLEManager\gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+31        android:name="com.example.budilnik.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+31-->[androidx.core:core:1.9.0] C:\Users\user\Desktop\Диплом\androidbasics-master\BLEManager\gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+32        android:protectionLevel="signature" />
+32-->[androidx.core:core:1.9.0] C:\Users\user\Desktop\Диплом\androidbasics-master\BLEManager\gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+33
+34    <uses-permission android:name="com.example.budilnik.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+34-->[androidx.core:core:1.9.0] C:\Users\user\Desktop\Диплом\androidbasics-master\BLEManager\gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+34-->[androidx.core:core:1.9.0] C:\Users\user\Desktop\Диплом\androidbasics-master\BLEManager\gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+35
+36    <application
+36-->F:\Budilnik\app\src\main\AndroidManifest.xml:23:5-50:19
+37        android:allowBackup="true"
+37-->F:\Budilnik\app\src\main\AndroidManifest.xml:24:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.9.0] C:\Users\user\Desktop\Диплом\androidbasics-master\BLEManager\gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+39        android:dataExtractionRules="@xml/data_extraction_rules"
+39-->F:\Budilnik\app\src\main\AndroidManifest.xml:25:9-65
+40        android:debuggable="true"
+41        android:extractNativeLibs="false"
+42        android:fullBackupContent="@xml/backup_rules"
+42-->F:\Budilnik\app\src\main\AndroidManifest.xml:26:9-54
+43        android:icon="@drawable/baseline_1"
+43-->F:\Budilnik\app\src\main\AndroidManifest.xml:27:9-44
+44        android:label="@string/app_name"
+44-->F:\Budilnik\app\src\main\AndroidManifest.xml:28:9-41
+45        android:supportsRtl="true"
+45-->F:\Budilnik\app\src\main\AndroidManifest.xml:29:9-35
+46        android:testOnly="true"
+47        android:theme="@style/Theme.Budilnik" >
+47-->F:\Budilnik\app\src\main\AndroidManifest.xml:30:9-46
+48        <activity
+48-->F:\Budilnik\app\src\main\AndroidManifest.xml:32:9-40:20
+49            android:name="com.example.budilnik.MainActivity"
+49-->F:\Budilnik\app\src\main\AndroidManifest.xml:33:13-41
+50            android:exported="true" >
+50-->F:\Budilnik\app\src\main\AndroidManifest.xml:34:13-36
+51            <intent-filter>
+51-->F:\Budilnik\app\src\main\AndroidManifest.xml:35:13-39:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->F:\Budilnik\app\src\main\AndroidManifest.xml:36:17-69
+52-->F:\Budilnik\app\src\main\AndroidManifest.xml:36:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->F:\Budilnik\app\src\main\AndroidManifest.xml:38:17-77
+54-->F:\Budilnik\app\src\main\AndroidManifest.xml:38:27-74
+55            </intent-filter>
+56        </activity>
+57        <activity android:name="com.example.budilnik.AlarmActivity" />
+57-->F:\Budilnik\app\src\main\AndroidManifest.xml:41:9-42:44
+57-->F:\Budilnik\app\src\main\AndroidManifest.xml:42:13-42
+58        <activity android:name="com.example.budilnik.ControlActivity" />
+58-->F:\Budilnik\app\src\main\AndroidManifest.xml:43:9-53
+58-->F:\Budilnik\app\src\main\AndroidManifest.xml:43:19-50
+59
+60        <service android:name="com.example.budilnik.BluetoothLeService" />
+60-->F:\Budilnik\app\src\main\AndroidManifest.xml:45:9-46:50
+60-->F:\Budilnik\app\src\main\AndroidManifest.xml:46:13-47
+61
+62        <activity android:name="com.example.budilnik.MainBluetooth" />
+62-->F:\Budilnik\app\src\main\AndroidManifest.xml:47:9-48:44
+62-->F:\Budilnik\app\src\main\AndroidManifest.xml:48:13-42
+63
+64        <provider
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\Desktop\Диплом\androidbasics-master\BLEManager\gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+65            android:name="androidx.startup.InitializationProvider"
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\Desktop\Диплом\androidbasics-master\BLEManager\gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+66            android:authorities="com.example.budilnik.androidx-startup"
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\Desktop\Диплом\androidbasics-master\BLEManager\gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+67            android:exported="false" >
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\Desktop\Диплом\androidbasics-master\BLEManager\gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+68            <meta-data
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\Desktop\Диплом\androidbasics-master\BLEManager\gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\Desktop\Диплом\androidbasics-master\BLEManager\gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+70                android:value="androidx.startup" />
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\Desktop\Диплом\androidbasics-master\BLEManager\gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+71            <meta-data
+71-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\Desktop\Диплом\androidbasics-master\BLEManager\gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+72                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+72-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\Desktop\Диплом\androidbasics-master\BLEManager\gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+73                android:value="androidx.startup" />
+73-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\Desktop\Диплом\androidbasics-master\BLEManager\gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+74        </provider>
+75    </application>
+76
+77</manifest>
