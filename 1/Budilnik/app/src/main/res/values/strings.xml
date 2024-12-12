@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Budilnik</string>
+    <string name="texts">Здесь будет время и интервал</string>
+    <string name="bud">Установть будильник</string>
+</resources>
